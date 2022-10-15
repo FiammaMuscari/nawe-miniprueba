@@ -5,11 +5,11 @@ export const Footer = () => {
     <div
       style={{
         backgroundColor: "#292935",
-        position: "fixed",
-        bottom: 0,
         width: "100%",
         maxWidth: "393px",
         height: "5rem",
+        marginTop: "5rem",
+        paddingTop: "0.5rem",
       }}
     >
       <div
@@ -19,7 +19,7 @@ export const Footer = () => {
           margin: "1rem",
         }}
       >
-        <div style={{cursor: 'pointer'}}>
+        <div style={{ cursor: "pointer" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-home"
@@ -38,7 +38,7 @@ export const Footer = () => {
             <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
           </svg>
         </div>
-        <div style={{cursor: 'pointer'}}>
+        <div style={{ cursor: "pointer" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-search"
@@ -68,7 +68,7 @@ export const Footer = () => {
             alignItems: "center",
             marginTop: "-1.8rem",
             height: "100%",
-            cursor: 'pointer',
+            cursor: "pointer",
           }}
         >
           <svg
@@ -88,7 +88,7 @@ export const Footer = () => {
             <line x1="5" y1="12" x2="19" y2="12" />
           </svg>
         </button>
-        <div style={{cursor: 'pointer'}}>
+        <div style={{ cursor: "pointer" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-inbox"
@@ -108,7 +108,12 @@ export const Footer = () => {
         </div>
         <div>
           <img
-            style={{ height: "2.5rem", width: "2.5rem", borderRadius: "50%", cursor: 'pointer', }}
+            style={{
+              height: "2.5rem",
+              width: "2.5rem",
+              borderRadius: "50%",
+              cursor: "pointer",
+            }}
             src="https://data.whicdn.com/images/329090666/original.jpg"
             alt="profile-image"
           />
